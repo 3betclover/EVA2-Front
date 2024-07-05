@@ -42,13 +42,66 @@
 }
 @media (max-width: 808px) {
     .navegacionPrincipal ul li {
-        display: none; /* Oculta los elementos de la lista */
+        display: none; 
     }
     .navegacionPrincipal .nav-img {
-        display: block; /* Muestra la imagen */
+        display: block; 
     }
 }
+/*PROMOCION*/
+.section-promocion {
+    background-color: black; 
+    color: white; 
+    padding: 20px; 
+    font-family: 'Electrolize', 'Arial', sans-serif; 
+}
 
+.contenedor-card-promocion {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 20px; 
+    font-family: 'Electrolize', sans-serif;
+    position: relative; 
+}
+
+.titulo-sistema {
+    font-size: 24px; 
+    text-align: center; 
+    margin-bottom: 10px;
+    font-family: 'Electrolize', sans-serif; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+}
+
+.contenedor-parrafo-promocion {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: 'Electrolize', sans-serif; 
+}
+.imagenes-planetas {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px; 
+    font-family: 'Electrolize', sans-serif; 
+}
+
+/* Estilos para responsividad */
+@media (max-width: 768px) {
+    .titulo-sistema {
+        font-size: 20px; 
+        font-family: 'Electrolize', sans-serif; 
+    }
+
+    .contenedor-card-promocion, .contenedor-parrafo-promocion {
+        padding: 0 10px; 
+        font-family: 'Electrolize', sans-serif; 
+    }
+}
 
 /*QUIENES SOMOS*/
  .section-quienessomos{
@@ -102,7 +155,7 @@
     width: 100%;
     min-height: 100%; 
     display: flex;
-    flex-direction: column; /* Corregido: se eliminó el carácter '/' */
+    flex-direction: column;
     align-items: center; 
 }
 .contenedor-card-testimonios{
@@ -206,9 +259,47 @@
     flex-direction: column;
     min-width: 240px ;
 }
-.icon{
+
+/*FOOTER*/
+.pie {
+    background-color: black;
+    color: white;
+    font-family: Electrolize;
+    text-align: center;
+    width: 340px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 12px 16px;
+}
+
+.contenedor-pie-de-pagina {
+    text-align: center;
+    font-family: Electrolize;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 16px;
+    padding: 12px 16px;
+    min-width: 240px;
+}
+
+.icon {
     color: #fff;
     width: 24px;
     height: 24px;
     text-align: left;
+}
+
+.iconos-contacto a {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px; 
+}
+
+.iconos-contacto svg {
+    margin-right: 5px; 
 }
