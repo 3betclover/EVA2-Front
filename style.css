@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 /*NAV*/
 .navegacionPrincipal {
     display: flex; 
@@ -50,3 +51,49 @@
         display: block; /* Muestra la imagen */
     }
 }
+=======
+ .section-quienessomos{
+    background-image: url('./img/planetita.png');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.etiqueta-titulo{
+    text-align: center;
+
+    font-family: Electrolize;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 59.3px;
+
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.parrafo{
+    background-color: grey rgba(23, 34, 43, 0.925);
+
+    border: 2px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.589);
+  
+}
+
+.texto-parrafo{
+    font-family: Electrolize;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.72px;
+
+    padding: 10px 25px 10px 25px;
+    text-align: justify;
+
+}
+
+
+>>>>>>> 8e13379c5bfeb762cde9b51b2dce5dfdeb406c34
