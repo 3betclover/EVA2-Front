@@ -102,7 +102,7 @@
     width: 100%;
     min-height: 100%; 
     display: flex;
-    flex-direction: column; /
+    flex-direction: column; /* Corregido: se eliminó el carácter '/' */
     align-items: center; 
 }
 .contenedor-card-testimonios{
@@ -205,4 +205,10 @@
     display: flex;
     flex-direction: column;
     min-width: 240px ;
+}
+.icon{
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    text-align: left;
 }
