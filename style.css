@@ -40,8 +40,6 @@
     font-weight: bold;
     font-size: 30px;
 }
-
-
 @media (max-width: 808px) {
     .navegacionPrincipal ul li {
         display: none; /* Oculta los elementos de la lista */
@@ -51,6 +49,8 @@
     }
 }
 
+
+/*QUIENES SOMOS*/
  .section-quienessomos{
     background-image: url('./img/planetita.png');
     background-size: cover;
@@ -93,10 +93,58 @@
     text-align: justify;
 
 }
+/*TESTIMONIOS*/
+.section-testimonios {
+    background-image: url('./img/fondoTestimonios.png');
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 100%;
+    min-height: 100%; 
+    display: flex;
+    flex-direction: column; /
+    align-items: center; 
+}
+.contenedor-card-testimonios{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%; 
+    margin: 0px; 
+}
+/* Contenedores de testimonios */
+.contenedor-card-testimonios-left, .contenedor-card-testimonios-center, .contenedor-card-testimonios-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    
+}
 
+.contenedor-card-testimonios-left {
+    background-color: #3498db; 
+    left: 5px; 
+    
+}
 
+.contenedor-card-testimonios-center {
+    background: rgb(10, 3, 51);
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
-/*FOOTER*/ 
+.contenedor-card-testimonios-right {
+    background-color: #2ecc71; 
+    right: 5px;
+    
+}
+
+/*FORMULARIO*/
 .contenedor-formulario{
     font-family: Electrolize;
     background-color: rgb(0, 0, 0);
